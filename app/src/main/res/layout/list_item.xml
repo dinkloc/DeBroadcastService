@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Thu"
+        android:textSize="20dp"
+        android:gravity="left|center_vertical"
+        android:id="@+id/tvThuChi"
+        android:textAlignment="gravity"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Thu"
+        android:textSize="20dp"
+        android:gravity="right|center_vertical"
+        android:textAlignment="gravity"
+        android:id="@+id/tvNgay"
+        android:layout_toRightOf="@+id/tvThuChi"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Gop tien an toi"
+        android:textSize="20dp"
+        android:gravity="left|center_vertical"
+        android:textAlignment="gravity"
+        android:layout_below="@+id/tvThuChi"
+        android:id="@+id/tvLoaiThuChi"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Thu"
+        android:textSize="20dp"
+        android:gravity="right|center_vertical"
+        android:textAlignment="gravity"
+        android:layout_toRightOf="@+id/tvLoaiThuChi"
+        android:layout_below="@+id/tvThuChi"
+        android:layout_marginRight="10dp"
+        android:id="@+id/tvSoTien"/>
+
+</RelativeLayout>
